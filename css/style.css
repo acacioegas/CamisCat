@@ -1,0 +1,19 @@
+/*!
+ * CamisCat Template (http://camiscat.com.br)
+ * Copyright 2015 Acacio Egas
+ */
+ 
+/*-------------------------------------------------
+ =  Table of Css
+
+ 1. Menu responsivo
+--------------------------------------------------*/
+
+/*-------------------------------------------------
+/* 1. Menu Responsivo
+--------------------------------------------------*/
+nav.navbar.navbar-default.navbar-fixed-top{
+                width: 800px;
+                background-color: transparent;
+                border-color: transparent;
+}
