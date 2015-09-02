@@ -14,6 +14,28 @@
 --------------------------------------------------*/
 nav.navbar.navbar-default.navbar-fixed-top{
                 width: 800px;
-                background-color: transparent;
-                border-color: transparent;
+                /*background-color: transparent;*/
+                /*border-color: transparent;*/
+}
+
+/* navbar */
+.navbar-default {
+    background-color: rgba(205, 26, 56, 0.5);
+    /*border-color: #000000;*/
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #777;
+}
+
+.home {
+    border: 1px solid black;
+    &:hover, *:focus {
+        border: 1px solid red;
+    }
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #8a0e0b;
 }
