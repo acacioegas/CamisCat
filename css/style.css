@@ -20,12 +20,27 @@ nav.navbar.navbar-default.navbar-fixed-top{
 
 /* navbar */
 .navbar-default {
-    background-color: rgba(205, 26, 56, 0.5);
+    background-color: rgba(205, 26, 56, 0.9);
     /*border-color: #000000;*/
 }
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+}
+
 /* title */
 .navbar-default .navbar-brand {
-    color: #777;
+    color: #fff;
 }
 
 .home {
