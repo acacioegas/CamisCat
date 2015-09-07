@@ -13,7 +13,8 @@
 /* 1. Menu Responsivo
 --------------------------------------------------*/
 nav.navbar.navbar-default.navbar-fixed-top{
-                width: 800px;
+                width: 100%;
+                max-width: 800px;
                 /*background-color: transparent;*/
                 /*border-color: transparent;*/
 }
